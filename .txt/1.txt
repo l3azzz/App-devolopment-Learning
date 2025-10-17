@@ -1,0 +1,51 @@
+MOBILE APPLICATION DEVOLOPMENT > REACT NATIVE > INTRODUCTION
+
+
+# What is mobile application
+
+
+	u know it's very important 
+	but how to make it
+	anyway's website is less likely to access if there is a mob app
+	so we are now designing a mobile app
+
+
+	mobile apps has 
+	perfomance
+	full access to mobile features
+	notifications
+	user friendly and pay 1100 NOW!
+	and more....
+
+
+# history of react native 
+
+
+	launched by meta
+	as they want a thing to build apps on both ios and android
+	now it's opensource
+
+
+# Expo CLI   VS    React Native CLI
+
+
+
+	1. 
+		better for beginners
+		wrapper for react native cli
+		they're are inbuilt libraries and more....
+		less proceess for configurations
+		has it's own app to run it 
+		very simple to share
+		25mb built size
+		prizing zzz
+
+
+	2.	
+		more controls 
+		more control & responsibilty
+		start from scratch
+		more congiguration processes
+		needs android studio virtual device
+		8mb built size
+		prizing zzz

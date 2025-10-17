@@ -1,0 +1,104 @@
+>>>  Setting up the Development Environment on Windows
+
+
+# installing windows Termianl
+
+	terminal > serach it
+	if it is there n need to install it then
+
+
+# installing Git
+
+	Child's game skip it 
+
+
+# Installing Nodejs and Npm package manager
+
+
+	to check installed
+	node --version
+	install node and npm 
+
+	skip it child's game
+
+# Installing React Native CLI
+
+
+
+	https://reactnative.dev/docs/set-up-your-environment?os=windows
+
+
+		install chocolatey
+	=>
+		choco install -y nodejs-lts microsoft-openjdk17
+		java --version
+
+
+
+# Installing Android Studio
+
+	
+	install android studio 
+	already Done Right?
+
+	
+# installing Android SDK
+
+	go to sdk mngr
+	and
+
+	SDK platform
+
+	select latest version
+
+	intel xx86 atom ... image i think install it and add some playstore , google api idk 
+
+	after installation
+
+	go to sdk tools
+	on there
+
+	select latest then 26.0.0.0 like that 
+	after installin gthat
+
+
+# Confi..ing ANDROID_HOME Env Var
+
+	go to enviornment variables then
+	bottom click it
+
+	Above > New 
+	name: ANDROID_HOME
+	value: {ANDROID SDK LOCATION} eg: I:\Android Studio\studio.virtual_additional.file (can be seen on android studio sdk mgr)
+
+
+	to check whether it is add or not 
+	poweshell> => Get-ChildItem -Path Env:\
+
+	check android_home is displayed in the tiles
+
+# Creating virtual device
+
+	android studio > virtual device mgr > Create device
+
+	select the latest device with the latest versiona nd with playstore and must be not so powerful as it an slow down ur pc\laptop so after adding u can customize or ..blah blah.
+
+
+# Intitialize a project
+
+
+	!important we're creating a android studio file through terminal!
+	somtimes npm or npx doens't work so on powershell admin
+	Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+	or
+	Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+
+
+	opne vscode > terminal > =>
+
+		cd {ur project folder}
+		npx @react-native-community/cli init  {proj_name}
+		y
+		if u can install coco pods
+		

@@ -1,0 +1,92 @@
+> Setting up the Dev Env on MACOS
+
+# INTRODUCTION
+
+	go to react native website and go to 
+	setting up the dev venv...
+
+# install node in macos
+
+	we are installing react native CLI 
+	go to reactnative.dev
+
+
+	so to EXPO create it 
+
+
+	=>
+		npx create-expo-app {proj_name}
+		cd {proj_name}
+		npx expo start
+
+	so to Native Create it 
+
+	=>
+		Install chocolatey
+		install node
+		install watchman
+		choco install -y nodejs-lts microsoft-openjdk17
+		add in enviornment variables > new.. > ANDROID_HOME
+		C:\Users\{username}\AppData\Local\Android\Sdk
+		%LOCALAPPDATA%\Android\Sdk
+		>powershell > Get-ChildItem -Path Env:\ verify if the thing is there
+
+		env variabl
+		path> edit > New > %LOCALAPPDATA%\Android\Sdk\platform-tools
+
+
+
+
+# Install Java Devoloopment Kit
+
+	android is running on java so we have to install java to ....
+
+
+	=> ... tap
+		.. cask
+
+
+
+		sorry all is in the https://reactnative.dev/docs/set-up-your-environment?os=macos
+
+
+
+# install Android studio
+
+	for simulating android apps in android phone in windows or macos..
+	on it 
+	more action > SDK mngr > install latest sdk 
+	toggle show package ...
+	install platform 34
+	and intelx855 atom5 sstem image
+	34.0.0 {inreactwebsite}
+
+	........
+
+
+# Creating a new Application 
+
+	
+	to create app we have to use
+	npx react-native@latest init AwesomeProject
+	kaathirippaanujoaly inni
+
+	then y cocopods
+	...........
+
+
+
+# Install XCode 
+
+
+	i skipped it i don't have any ios devices 
+	;(
+	..........
+
+
+# Install IOS Simulator 
+
+
+	to get super phone ios 100+ 
+	idk
+	.............

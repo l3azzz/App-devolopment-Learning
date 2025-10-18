@@ -102,3 +102,17 @@
 		y
 		if u can install coco pods
 		
+
+# Run On Android ;)
+
+
+	how to run it on virtual device mmm?
+
+	so on terminal =>
+					cd {ur proj location inside project}
+					npx react-native run-android
+
+
+					on vscode window window
+
+

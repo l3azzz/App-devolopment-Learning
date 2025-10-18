@@ -1,0 +1,113 @@
+To:
+    Create a React Native app 
+    Install Android Studio
+    Set up your First Project (Simplified)
+
+# Introduction
+
+    From VScode to Android Virtual Device(AVD)  -- Through Simple configurations
+    openJDK 11 or Nodejs 14+ 
+    it's a best practice to focus on both bcuz of my current knowledge IDK!
+
+# Install Chocolatey, Node, OpenJDK, NPM
+
+    like NPM and NPX there is one more Chocolatey -Suggested by the React-native 
+    to install
+
+    CMD (Admin) => 
+    @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+
+    choco install -y nodejs-lts openjdk11
+
+    choco install -g npm
+
+    we use chocolatey to install later packages Such as NodeJS-LTS and openJDK 11
+    use the coommands one by one
+
+# Install Android Studio
+
+    on windows go to chrome > search > android studio download
+    install it then
+
+    chose a specifice location
+    tick the 2 checkboxes
+
+    # SDK
+        go to the 3 dots and click on  SDK mngr 
+        on that install these things in these sections
+
+        SDK Platform > 
+            Toggle Show package Detail
+            Go ahead and install the lates Android version > Android SDK Platform **
+            and the Intel x86 atom_64 System Image
+        SDK Tools >
+            Toggle show Package Detail
+            under android SDK built tools go ahead and find {sdk version}.0.0
+            
+    Click On apply That's IT 
+
+# Install JETbrains IDE
+
+    Install JETBRAINS's Son WebStorm suitable for
+    React, Javascript, Typescript and for fullstack devs out there 
+    so install it for devoloping apps that change the way people uses now
+
+# Add Path to Environment Variables
+
+    on search bar type > envi > so press enter 
+
+    Environmnet Variables >
+    
+        User Variables > New >
+            Name: ANDROID_HOME
+            Value: {COPY PASTE sdk location on android studio sdk mngr (location)}
+        to verify it go to powershell 
+
+        Get-ChildItem -Path Env:\
+
+            check if there is ANDROID_HOME is listed
+
+        System Variables > Path > Edit > New 
+            paste the locoation of the platform tools it is usually find in the 
+            sdk folder with the name platform-tools
+
+    CLICK ON OKAY 
+
+# Deleting old react-native (if already installed)
+
+    earlyer if u installed react-native  u have to do this
+    type this in the terminal
+
+    npm uninstall -g react-native-cli @react-native-community/cli 
+
+Now it's all ready to go u can create a app and using simple commands 
+
+# Create a Android Virtual Device (AVD)
+
+    open AStudio click 3 Dots and click Virtual device manager
+    create virtual device
+    select the device with latest android version and have a playstore icon
+    and the phone is not a beast also 
+
+    now go to JETBRAINS IDE windsurf on that 
+    go to terminal >
+        npx react-native inti {project_name}
+
+    now it will start creating may take up to 5+ minutes
+
+    outside Terminal :
+
+        cd {project_name}
+        optional(code .) --opens vscode in this path
+        npm start  -- opens metro
+        
+
+    Inside vsCode Terminal :
+
+        npm run android
+        npx react-native run-android
+
+        click on the Power icoon on AVD aah now there is a new app with a android logo
+        just click it run it u'll see what's going on there
+
+That's all for now ;)  u see this it ytped this whole thing but it's not formatted well i mean that i dd it on bosidian but now i wan tit on notepad like any editor for that it has to have unifrom spaces like that with more virtualizsing while not destroying anything or don't removing a single word from this do it

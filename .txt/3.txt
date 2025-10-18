@@ -64,8 +64,8 @@
 
 # Confi..ing ANDROID_HOME Env Var
 
-	go to enviornment variables then
-	bottom click it
+	go to user enviornment variables then
+	bottom click it | u can find it in control panel user's
 
 	Above > New 
 	name: ANDROID_HOME
@@ -107,12 +107,16 @@
 
 
 	how to run it on virtual device mmm?
-
+	prepare ur android virtual device by opening it
 	so on terminal =>
 					cd {ur proj location inside project}
 					npx react-native run-android
 
 
-					on vscode window window
+					on metro  window
+
+					=> npx start
 
 
+
+						it may take up to 20+ minutes

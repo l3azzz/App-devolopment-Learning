@@ -41,7 +41,7 @@
 	install android studio 
 	already Done Right?
 
-	
+	 
 # installing Android SDK
 
 	go to sdk mngr

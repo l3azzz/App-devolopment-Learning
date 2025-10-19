@@ -19,6 +19,9 @@ To:
 
     choco install -y nodejs-lts openjdk11
 
+    system Variables:
+        check if the java home is there in the bottom section
+
     choco install -g npm
 
     we use chocolatey to install later packages Such as NodeJS-LTS and openJDK 11
@@ -92,6 +95,8 @@ Now it's all ready to go u can create a app and using simple commands
     now go to JETBRAINS IDE windsurf on that 
     go to terminal >
         npx react-native inti {project_name}
+        or
+        npx @react-native-community/cli init {project_name}
 
     now it will start creating may take up to 5+ minutes
 
@@ -110,4 +115,21 @@ Now it's all ready to go u can create a app and using simple commands
         click on the Power icoon on AVD aah now there is a new app with a android logo
         just click it run it u'll see what's going on there
 
-That's all for now ;)  u see this it ytped this whole thing but it's not formatted well i mean that i dd it on bosidian but now i wan tit on notepad like any editor for that it has to have unifrom spaces like that with more virtualizsing while not destroying anything or don't removing a single word from this do it
+That's all for now ;)  
+
+
+Trobule shoot :
+    
+    npm cache verify
+    npm cache clean
+    npm i -g react-native@latest
+    
+
+
+    on project > android > 
+
+        *local.properties >
+            sdk.dir=I:/Android Studio/sdk
+            ndk.dir=I:/Android Studio/sdk/ndk/26.1.10909125
+
+            customise accroding to ur dir
